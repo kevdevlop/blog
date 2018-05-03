@@ -24,7 +24,7 @@
 }
 
 #title-index{
-  color: red;
+  color: 	rgb(82, 82, 122);
 }
 
 .title-article{
@@ -50,7 +50,7 @@
   padding-left: 80%;
 }
 .comments{
-  border: 2px solid;
+  border: 2px inset;
 }
 
 .container-comment{
@@ -60,5 +60,16 @@
 }
 
 .buttons-show{
-  padding-top: 15px;
+  padding-top: 20px;
+}
+
+#title-form-article{
+  padding-bottom: 30px;
+  padding-left: 35%;
+  color: Green;
+}
+
+.form_article{
+  padding-left: 35%;
+
 }
