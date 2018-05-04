@@ -1,0 +1,19 @@
+<div class="comment">
+  <strong>Commenter:</strong>
+  <p>
+    <%= comment.commenter %>
+  </p>
+
+  <strong>Comment:</strong>
+  <p class="text-comment">
+    <%= comment.body %>
+  </p>
+
+  <p class="btn-del-comment">
+    <%= link_to 'Delete Comment', [comment.article, comment],
+                 method: :delete,
+                 data: { confirm: 'Are you sure?' } ,
+                 class: "btn btn-danger btn-sm"%>
+  </p>
+  <hr>
+</div>

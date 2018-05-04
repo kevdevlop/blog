@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+.article{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.table {
+    width: 90%;
+}
+
+.btn-create{
+  margin-bottom: 10px;
+  margin-left: 80%;
+}
+
+#title-index{
+  color: 	rgb(82, 82, 122);
+}
+
+.title-article{
+  color: rgb(51, 51, 153);
+  padding-bottom: 12px;
+}
+
+.text-article{
+  text-align: justify;
+}
+
+.text-comment{
+  text-align: justify;
+}
+
+.comment-body{
+  margin: 0px;
+  width: 100%;
+  height: 88px;
+}
+
+.btn-del-comment{
+  padding-left: 80%;
+}
+.comments{
+  border: 2px inset;
+}
+
+.container-comment{
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buttons-show{
+  padding-top: 20px;
+}
+
+#title-form-article{
+  padding-bottom: 30px;
+  padding-left: 35%;
+  color: Green;
+}
+
+.form_article{
+  padding-left: 35%;
+
+}
