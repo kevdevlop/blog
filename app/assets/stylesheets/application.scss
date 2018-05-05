@@ -13,19 +13,26 @@
  *= require_tree .
  *= require_self
  */
-
+@import "bootstrap";
 body {
     font-family: Source sans pro;
 }
+.articles-showing{
+    padding-top: 70px;
+}
 .article{
-  padding-top: 15px;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
-
+.new-edit-form{
+  padding-top: 50px;
+}
+.jumbotron{
+    margin-top: 70px;
+}
 
 .btn-create{
   margin-bottom: 10px;
-  margin-left: 80%;
 }
 
 #title-index{
@@ -53,9 +60,7 @@ body {
   height: 88px;
 }
 
-.btn-del-comment{
-  padding-left: 80%;
-}
+
 .comments{
   border: 2px solid #bdc3c7;
 }
@@ -72,11 +77,12 @@ body {
 
 #title-form-article{
   padding-bottom: 30px;
-  padding-left: 35%;
   color: Green;
 }
 
 .form_article{
   padding-left: 35%;
-
+  float: none;
+  margin: 0 auto;
 }
+
