@@ -12,13 +12,16 @@
 
     <table class="table table-table-striped">
       <tr>
+        <th>#</th>
         <th>Title</th>
         <th>Created At</th>
         <th>Actions</th>
       </tr>
-
+      <% i = 0 %>
       <% @articles.each do |article| %>
+
         <tr>
+          <td> <%= i = i + 1  %> </td>
           <td><%= article.title %></td>
           <td><%= article.created_at %></td>
 
